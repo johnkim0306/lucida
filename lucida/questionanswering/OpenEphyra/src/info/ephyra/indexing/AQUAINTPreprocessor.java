@@ -20,10 +20,8 @@ import java.util.ArrayList;
  * @author Nico Schlaefer
  * @version 2006-04-30
  */
-public class AQUAINTPreprocessor {
-	/** Directory of the AQUAINT corpus */
-	private static String dir;
-	
+public class AQUAINTPreprocessor extends AQUAINTPreprocessorTemplate {
+
 	/**
 	 * Adds paragraph tags if missing.
 	 * 

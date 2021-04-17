@@ -25,9 +25,7 @@ import java.util.regex.Pattern;
  * @author Nico Schlaefer
  * @version 2007-07-14
  */
-public class AQUAINT2Preprocessor {
-	/** Directory of the AQUAINT corpus */
-	private static String dir;
+public class AQUAINT2Preprocessor extends AQUAINTPreprocessorTemplate {
 	
 	/**
 	 * Adds paragraph tags to documents of type 'multi', 'advis' and 'other'.
