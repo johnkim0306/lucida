@@ -4,8 +4,8 @@ public abstract class AQUAINTPreprocessorTemplate{
 	/** Directory of the AQUAINT corpus */
 	protected static String dir;
 
-
-	public void paragraphHandling() {
+	// Common Methods
+	public void preProcessing() {
 		// enable output of status and error messages
 		MsgPrinter.enableStatusMsgs(true);
 		MsgPrinter.enableErrorMsgs(true);		
@@ -20,10 +20,7 @@ public abstract class AQUAINTPreprocessorTemplate{
 		}		
 	}
 	
-	
-	
-	
-	
+
 	@Override
 	protected abstract static boolean addParagraphTags();
 	
